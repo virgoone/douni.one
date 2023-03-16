@@ -1,4 +1,5 @@
 import { render } from 'solid-js/web'
+import { inject } from '@vercel/analytics';
 import 'uno.css'
 import '@unocss/reset/tailwind.css'
 import './main.css'
@@ -17,3 +18,4 @@ colorSchema.addEventListener('change', performDark)
 performDark()
 
 render(() => <App />, document.getElementById('root') as HTMLElement)
+inject()
