@@ -1,5 +1,4 @@
 import type { Component } from 'solid-js'
-
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Posts from './components/Posts'
