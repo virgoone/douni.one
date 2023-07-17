@@ -4,15 +4,21 @@ import ProjectItem from './ProjectItem'
 export default () => {
   const projectLists = [
     {
+      name: 'CRA',
+      desc: '一个类似CRA的实现，主要用于 react 项目',
+      link: 'https://dev.douni.one',
+      icon: 'i-twemoji-exploding-head',
+    },
+    {
       name: '项目模版',
       desc: '比较全的不同端项目模版（console,web,mobile）',
-      link: 'https://github.com/virgoone/react-template',
+      link: 'https://dev.douni.one/docs/template/default',
       icon: 'i-twemoji-card-index-dividers',
     },
     {
-      name: '小程序颜值打分',
-      desc: '一个使用 Taro 实现的小程序颜值打分',
-      link: 'https://github.com/virgoone/magic-mirror',
+      name: 'Transform 工具',
+      desc: '基于开源修改，增加了一些工具，升级了全部依赖',
+      link: 'https://tool.douni.one',
       icon: 'i-twemoji-astronaut',
     },
     {
@@ -21,17 +27,11 @@ export default () => {
       link: 'https://react-cool-image.netlify.app/',
       icon: 'i-twemoji-ice',
     },
-    {
-      name: 'CRA',
-      desc: '一个类似CRA的实现，主要自用于 react 项目',
-      link: 'https://github.com/lark-org/lark-cli-service',
-      icon: 'i-twemoji-exploding-head',
-    },
 
     {
       name: 'Tool',
       desc: '一个一直在做但没做完的工具库',
-      link: 'https://github.com/lark-org/lark',
+      link: 'https://lark-docs.douni.one',
       icon: 'i-twemoji-carousel-horse',
     },
     {
