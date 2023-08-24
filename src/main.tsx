@@ -1,5 +1,6 @@
 import { render } from 'solid-js/web'
-import { inject } from '@vercel/analytics';
+import { inject } from '@vercel/analytics'
+import { Router, Route, Routes } from '@solidjs/router'
 import 'uno.css'
 import '@unocss/reset/tailwind.css'
 import './main.css'
@@ -17,5 +18,14 @@ const performDark = () => {
 colorSchema.addEventListener('change', performDark)
 performDark()
 
-render(() => <App />, document.getElementById('root') as HTMLElement)
+render(
+  () => (
+    <Router>
+      <Routes>
+        <Route path="/" component={App} /> {/* 👈 Define the home page route */}
+      </Routes>
+    </Router>
+  ),
+  document.getElementById('root') as HTMLElement,
+)
 inject()
