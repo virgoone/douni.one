@@ -4,6 +4,12 @@ import ProjectItem from './ProjectItem'
 export default () => {
   const projectLists = [
     {
+      name: 'Transform 工具',
+      desc: '基于开源修改，增加了一些工具，升级了全部依赖',
+      link: 'https://douni.one',
+      icon: 'i-twemoji-astronaut',
+    },
+    {
       name: 'CRA',
       desc: '一个类似CRA的实现，主要用于 react 项目',
       link: 'https://dev.douni.one',
@@ -14,12 +20,6 @@ export default () => {
       desc: '比较全的不同端项目模版（console,web,mobile）',
       link: 'https://dev.douni.one/docs/template/default',
       icon: 'i-twemoji-card-index-dividers',
-    },
-    {
-      name: 'Transform 工具',
-      desc: '基于开源修改，增加了一些工具，升级了全部依赖',
-      link: 'https://tool.douni.one',
-      icon: 'i-twemoji-astronaut',
     },
     {
       name: 'react-cool-image',
